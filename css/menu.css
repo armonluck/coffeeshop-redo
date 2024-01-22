@@ -1,8 +1,66 @@
 * {
     background-color: blanchedalmond;
+    color: #5bacc3;
+    color: #FFF0ED;
+    color: #393939;
 }
 
 p {
     font-size: 25px;
-    color: red;
+}
+
+.menu-header {
+
+}
+
+.nav {
+
+}
+
+.nav-header {
+
+}
+
+.nav-list {
+
+}
+
+.nav-list__item {
+
+}
+
+.main-menu {
+
+}
+
+.main-header {
+
+}
+
+.menu-list {
+
+}
+
+.hot-list {
+
+}
+
+.hot-list__item {
+
+}
+
+.hot-list__header {
+
+}
+
+.hot-list__item {
+
+}
+
+.hot-list__text {
+
+}
+
+.hot-list__price {
+
 }
