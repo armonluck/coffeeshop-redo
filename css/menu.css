@@ -1,14 +1,15 @@
 * {
-    background-color: blanchedalmond;
-    color: #5bacc3;
-    color: #FFF0ED;
+    background-color: lightsalmon;
+    /* color: #5BACC3;
+    color: #FFF0ED; 
+
     color: #393939;
     color: #F7F7F7;
-    color: #FFF;
+    color: #FFF;  */
 }
 
-p {
-    font-size: 25px;
+.site-icon {
+    width: 50px;
 }
 
 .menu-header {
@@ -16,27 +17,30 @@ p {
 }
 
 .nav {
-
+ text-decoration: none;
 }
 
-.nav-header {
-
+.nav__heading {
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .nav-list {
-
+    list-style: lower-greek;
 }
 
 .nav-list__item {
-
+    font-size: 21px; 
+    font-weight: 400;
 }
 
 .main-menu {
 
 }
 
-.main-header {
-
+.main-heading {
+    font-size: 60px; 
+    font-weight: 300;
 }
 
 .menu-list {
@@ -47,22 +51,23 @@ p {
 
 }
 
-.hot-list__item {
-
-}
-
-.hot-list__header {
-
+.hot-list__heading {
+    font-size: 60px; 
+    font-weight: 300;
 }
 
 .hot-list__item {
-
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .hot-list__text {
-
+    font-size: 21px; 
+    font-weight: 400;
+    font-style: italic;
 }
 
 .hot-list__price {
-
+    font-size: 21px; 
+    font-weight: 400;
 }
