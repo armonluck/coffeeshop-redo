@@ -1,5 +1,4 @@
 * {
-    background-color: lightsalmon;
     /* color: #5BACC3;
     color: #FFF0ED; 
 
@@ -17,16 +16,18 @@
 }
 
 .nav {
- text-decoration: none;
+
 }
 
 .nav__heading {
     font-size: 30px;
     font-weight: 300;
+    color: #393939;
+    text-decoration: none;
 }
 
 .nav-list {
-    list-style: lower-greek;
+    list-style: none;
 }
 
 .nav-list__item {
@@ -35,39 +36,61 @@
 }
 
 .main-menu {
-
+    width: 100%;
+    height: 70%;
+    background-image: url(../assets/coffee-circle.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.main-heading {
+.main-menu__heading {
+    font-size: 60px; 
+    font-weight: 300;
+    color: #FFF;
+    width: 300px;
+    height: 200px;
+    background-color: #393939;
+}
+
+.main-menu__list {
+    font-size: 18px; 
+    font-weight: 400;
+    color: #FFF;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #393939;
+}
+
+.list--hot {
+ background-color: #FFF0ED;
+}
+
+.list--cold {
+background-color: #F7F7F7;
+}
+
+.list--pastry {
+ background-color: #FFF0ED;
+}
+
+.list__heading {
     font-size: 60px; 
     font-weight: 300;
 }
 
-.menu-list {
-
-}
-
-.hot-list {
-
-}
-
-.hot-list__heading {
-    font-size: 60px; 
-    font-weight: 300;
-}
-
-.hot-list__item {
+.list__item {
     font-size: 30px;
     font-weight: 300;
 }
 
-.hot-list__text {
-    font-size: 21px; 
+.list__text {
+    font-size: 18px; 
     font-weight: 400;
     font-style: italic;
 }
 
-.hot-list__price {
-    font-size: 21px; 
+.list__price {
+    font-size: 18px; 
     font-weight: 400;
+    color: #5BACC3;
 }
